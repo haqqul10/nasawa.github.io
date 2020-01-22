@@ -1,0 +1,337 @@
+.navbar-brand,
+.navbar-nav a {
+	font-weight: bold;
+	color: #2c3e50;
+}
+
+.navbar-brand {
+	font-family: 'Quintessential', cursive;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.navbar-nav a {
+	margin-left: 30px;
+}
+
+.navbar-nav a:hover::after {
+	content: "";
+	display: block;
+	border-bottom: 3px solid white;
+	padding-bottom: 5px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: -8px;
+}
+
+.jumbotron {
+	background-image: url('img/backround.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 580px;
+	padding-top: 120px;
+	color: white;
+}
+
+.jumbotron .container {
+	opacity: 0;
+	transform: translate(0, -200px);
+	transition: 1s;
+}
+
+.jumbotron .animasi {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.jumbotron .display-4 {
+	font-style: italic;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Crete Round';
+
+}
+
+.jumbotron h1 {
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h3 {
+	font-size: 13px;
+	font-weight: 200;
+}
+
+.jumbotron .lead {
+	font-size: 12px;
+}
+
+.jumbotron .btn {
+	text-transform: uppercase;
+	font-weight: 400;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid white;
+	color: white !important;
+}
+
+.form-control {
+	width: 180px;
+	padding: 10px;
+}
+
+.about {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.about .about1 {
+	background-color: white;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	margin: 10px;
+	width: 380px;
+}
+
+.about .about1 .card {
+	border: none;
+}
+
+.about .about1 .card p {
+	color: #718093 !important;
+}
+
+.about .about1 .btn {
+	margin-bottom: 50px;
+	background-color: #ee5253;
+}
+
+.about .about1 img {
+	margin: 20px 0;
+	width: 100%;
+
+}
+
+/* services */
+.service {
+	background-color: white;
+	margin-top: 100px;
+}
+
+.service h1,
+.about h1,
+.client h1,
+.contact h1 {
+	font-family: 'Crete Round', serif;
+}
+
+.service p {
+	color: #718093;
+}
+
+.service .icon {
+	width: 40px;
+	float: left;
+	padding-right: 10px;
+}
+
+.service .btn {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 20px;
+	background-color: #ee5253;
+	border: none;
+}
+
+.service img {
+	width: 400px;
+	margin-top: 95px;
+}
+
+.service {
+	background-color: white;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#service1,
+#service2,
+#service3,
+#service4 {
+	padding: 50px 0;
+}
+
+.service .gambar {
+	width: 350px;
+	margin-top: 10px;
+}
+
+.client {
+	background-image: url('img/printing1.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding: 10px 0;
+	color: white;
+	margin-top: 100px;
+}
+
+.client hr {
+	background-color: white;
+}
+
+.client img {
+	width: 170px;
+	margin: 50px;
+	text-align: center;
+	filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.8));
+}
+
+.contact {
+	margin-top: 120px;
+}
+
+.contact h6 {
+	font-style: italic;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.contact p {
+	color: #718093;
+}
+
+.isi-form .form-control {
+	width: 300px;
+}
+
+.form-contact .btn {
+	width: 180px;
+	font-size: 14px !important;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+.info-contact img {
+	width: 80px;
+	margin-bottom: 50px;
+	margin-right: 20px;
+}
+
+.footer {
+	margin-top: 120px;
+	padding-top: 50px;
+	background-color: #2d3436;
+	color: white;
+}
+
+.footer ul li {
+	float: left;
+	list-style: none;
+}
+
+.footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-right: 35px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+/* version Deskstop */
+@media (min-width: 992px) {
+
+	.navbar {
+		padding: 20px 0px;
+		transition: 1s;
+		position: fixed;
+		width: 100%;
+		margin-top: 75px;
+		z-index: 1;
+	}
+
+	.animasiturun {
+		background-color: #000000e6;
+	}
+
+	.navbar-brand,
+	.navbar-nav a {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #2c3e50;
+	}
+
+	.jumbotron {
+		margin-top: -79px;
+		height: 900px;
+		padding-top: 280px;
+
+	}
+
+	.navbar-brand,
+	.navbar-toggler,
+	.navbar-nav a {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: white !important;
+	}
+
+	.jumbotron .btn {
+		width: 106%;
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 15px 5px;
+	}
+
+	.jumbotron .lead {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.about .about1 {
+		background-color: white;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+		margin-left: 20px;
+		border-radius: 5px;
+	}
+
+	.about .about1 img {
+		margin: 20px 0;
+		width: 100%;
+		height: 200px;
+	}
+
+	.isi-form .form-control {
+		width: 400px;
+	}
+
+	.form-contact .btn {
+		width: 400px;
+		color: white;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+
+	.service .gambar {
+		width: 500px;
+		height: 320px;
+		margin-top: 0;
+	}
+
+	.service {
+		background-color: white;
+		margin-top: 100px;
+		text-align: left;
+	}
+}
